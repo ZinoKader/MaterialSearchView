@@ -512,7 +512,7 @@ public class MaterialSearchView extends FrameLayout implements Filter.FilterList
         }
 
         //Request Focus **scratch that, we don't want automatic focus, we want focus on click!***
-        mSearchSrcTextView.setText(null);
+        //mSearchSrcTextView.setText(null);
         //mSearchSrcTextView.requestFocus();
 
         if (animate) {
